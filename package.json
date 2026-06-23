@@ -8,6 +8,7 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "start": "node dist/server/server.js",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
@@ -84,5 +85,8 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^8.0.16"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
